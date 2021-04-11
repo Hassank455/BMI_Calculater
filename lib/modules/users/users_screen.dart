@@ -1,16 +1,6 @@
+import 'package:bmi_calculater/models/user/user_model.dart';
 import 'package:flutter/material.dart';
 
-class UserModel {
-  final int id;
-  final String name;
-  final String phone;
-
-  UserModel({
-    @required this.id,
-    @required this.phone,
-    @required this.name,
-  });
-}
 
 class UsersScreen extends StatelessWidget {
   List<UserModel> users = [

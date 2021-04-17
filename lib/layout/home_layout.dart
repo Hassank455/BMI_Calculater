@@ -6,20 +6,19 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 
-class HomeLayout extends StatefulWidget {
-  @override
-  _HomeLayoutState createState() => _HomeLayoutState();
-}
+// 1. create database
+// 2. create tables
+// 3. open database
+// 4. insert to database
+// 5. get from database
+// 6. update in database
+// 7. delete from database
 
-class _HomeLayoutState extends State<HomeLayout> {
+class HomeLayout extends StatelessWidget {
   var scaffoldKey = GlobalKey<ScaffoldState>();
-
   var formKey = GlobalKey<FormState>();
-
   var titleController = TextEditingController();
-
   var timeController = TextEditingController();
-
   var dateController = TextEditingController();
 
   @override
@@ -192,4 +191,11 @@ class _HomeLayoutState extends State<HomeLayout> {
       ),
     );
   }
+
+// Instance of 'Future<String>'
+
+// Future<String> getName() async
+// {
+//   return 'Ahmed Ali';
+// }
 }
